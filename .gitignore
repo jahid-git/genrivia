@@ -10,7 +10,6 @@ coverage
 
 # next.js
 .next/
-server/
 out/
 build
 
@@ -48,7 +47,7 @@ __pycache__/
 *.py[cod]
 
 # Virtual environment
-venv/
+.venv/
 .env
 
 # IDE files (if using PyCharm, VS Code, etc.)
