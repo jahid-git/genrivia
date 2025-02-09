@@ -44,12 +44,12 @@ Deep Storm ML Backend is a Python Flask application integrated with Agno for AI 
 
     Create a `.env` file in the root directory and add the following:
 
-        ```env
-        OPENAI_API_KEY=your-openai-api-key
-        GEMINI_API_KEY=your-gemini-api-key
-        FIREWORKS_API_KEY=your-aws-access-key-id
-        GROQ_API_KEY=your-groq-api-key
-        ```
+    ```env
+    OPENAI_API_KEY=your-openai-api-key
+    GEMINI_API_KEY=your-gemini-api-key
+    FIREWORKS_API_KEY=your-aws-access-key-id
+    GROQ_API_KEY=your-groq-api-key
+    ```
 
 ### Running the Application
 
