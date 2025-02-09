@@ -31,6 +31,7 @@ Deep Storm ML is a Next.js application integrated with Vercel AI chatbot, AWS S3
 
     ```bash
     pnpm i
+    pnpm db:migrate
     ```
 
 3. Set up environment variables:
