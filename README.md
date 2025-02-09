@@ -127,15 +127,12 @@ Deep Storm ML Backend is a Python Flask application integrated with Agno for AI 
 
     Create a `.env` file in the root directory and add the following:
 
-    ```env
-    FLASK_APP=app.py
-    FLASK_ENV=development
-    AGNO_API_KEY=your-agno-api-key
-    AWS_ACCESS_KEY_ID=your-aws-access-key-id
-    AWS_SECRET_ACCESS_KEY=your-aws-secret-access-key
-    AWS_S3_BUCKET_NAME=your-s3-bucket-name
-    DATABASE_URL=your-postgresql-database-url
-    ```
+           ```env
+        OPENAI_API_KEY=your-openai-api-key
+        GEMINI_API_KEY=your-gemini-api-key
+        FIREWORKS_API_KEY=your-aws-access-key-id
+        GROQ_API_KEY=your-groq-api-key
+        ```
 
 ### Running the Application
 
