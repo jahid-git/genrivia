@@ -1,6 +1,8 @@
 import { compare } from 'bcrypt-ts';
 import NextAuth, { type User, type Session } from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
+import Google from 'next-auth/providers/google';
+import Github from 'next-auth/providers/github';
 
 import { getUser } from '@/lib/db/queries';
 
@@ -18,6 +20,8 @@ export const {
 } = NextAuth({
   ...authConfig,
   providers: [
+    Google({}),
+    Github({}),
     Credentials({
       credentials: {},
       async authorize({ email, password }: any) {
