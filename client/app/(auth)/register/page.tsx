@@ -58,14 +58,14 @@ export default function Page() {
           </div>
         </div>
         <AuthForm action={handleSubmit} defaultEmail={email}>
-          <SubmitButton isSuccessful={isSuccessful}>Sign Up</SubmitButton>
+          <SubmitButton isSuccessful={isSuccessful}>Register</SubmitButton>
           <p className="text-center text-sm text-gray-600 mt-4 dark:text-zinc-400">
             {'Already have an account? '}
             <Link
               href="/login"
               className="font-semibold text-gray-800 hover:underline dark:text-zinc-200"
             >
-              Sign in
+              Login
             </Link>
             {' instead.'}
           </p>

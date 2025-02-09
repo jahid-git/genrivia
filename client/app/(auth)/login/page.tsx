@@ -53,14 +53,14 @@ export default function Page() {
             className='rounded-full' />
         </div>
         <AuthForm action={handleSubmit} defaultEmail={email}>
-          <SubmitButton isSuccessful={isSuccessful}>Sign in</SubmitButton>
+          <SubmitButton isSuccessful={isSuccessful}>Login</SubmitButton>
           <p className="text-center text-sm text-gray-600 mt-4 dark:text-zinc-400">
             {"Don't have an account? "}
             <Link
               href="/register"
               className="font-semibold text-gray-800 hover:underline dark:text-zinc-200"
             >
-              Sign up
+              Register
             </Link>
             {' for free.'}
           </p>
