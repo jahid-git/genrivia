@@ -67,19 +67,6 @@ Deep Storm ML is a Next.js application integrated with Vercel AI chatbot, AWS S3
 
 2. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For any inquiries, please contact [jahidsite0@gmail.com](mailto:jahidsite0@gmail.com).
-
----
 
 # Deep Storm ML Backend
 
