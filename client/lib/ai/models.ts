@@ -6,7 +6,7 @@ import {
   wrapLanguageModel,
 } from 'ai';
 
-export const DEFAULT_CHAT_MODEL: string = 'chat-model-small';
+export const DEFAULT_CHAT_MODEL: string = 'genrivia';
 
 export const myProvider = customProvider({
   languageModels: {
@@ -33,18 +33,18 @@ interface ChatModel {
 
 export const chatModels: Array<ChatModel> = [
   {
-    id: 'chat-model-small',
-    name: 'Small model',
-    description: 'Small model for fast, lightweight tasks',
+    id: 'genrivia',
+    name: 'Genrivia',
+    description: 'Healthcare AI and wellness plans',
   },
-  {
-    id: 'chat-model-large',
-    name: 'Large model',
-    description: 'Large model for complex, multi-step tasks',
-  },
-  {
-    id: 'chat-model-reasoning',
-    name: 'Reasoning model',
-    description: 'Uses advanced reasoning',
-  },
+  // {
+  //   id: 'chat-model-large',
+  //   name: 'Large model',
+  //   description: 'Large model for complex, multi-step tasks',
+  // },
+  // {
+  //   id: 'chat-model-reasoning',
+  //   name: 'Reasoning model',
+  //   description: 'Uses advanced reasoning',
+  // },
 ];

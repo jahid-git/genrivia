@@ -19,7 +19,7 @@ export const Overview = () => {
           <Image src="/images/icon.png" alt="Logo" width={90} height={90} />
         </p>
         <p>
-          <strong>DeepStorm ML</strong> is a platform for building and deploying machine learning models.
+          <strong>Genrivia</strong> is a healthcare AI designed to generate personalized health and wellness plans. I analyze user-provided health data to create customized recommendations for diet, exercise, mental health, and general well-being. Basically, I'm here to get you in top shape!
         </p>
       </div>
     </motion.div>

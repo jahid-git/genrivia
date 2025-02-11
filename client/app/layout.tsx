@@ -7,8 +7,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'DeepStorm ML',
-  description: 'DeepStorm ML is a AI agent.',
+  title: 'Genrivia',
+  description: 'Genrivia is a AI agent.',
 };
 
 export const viewport = {
