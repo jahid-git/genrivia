@@ -5,7 +5,7 @@ export const Overview = () => {
   return (
     <motion.div
       key="overview"
-      className="max-w-3xl mx-auto md:mt-20"
+      className="mx-auto md:mt-20"
       initial={{ opacity: 0, scale: 0.98 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.98 }}
@@ -15,7 +15,7 @@ export const Overview = () => {
         <p className="flex flex-row justify-center gap-4 items-center">
           <Image src="/images/icon.png" alt="Logo" width={90} height={90} />
         </p>
-        <p className='w-4/5'>
+        <p>
           <strong>Genrivia</strong> is a healthcare AI designed to generate personalized health and wellness plans. I analyze user-provided health data to create customized recommendations for diet, exercise, mental health, and general well-being. Basically, I&apos;m here to get you in top shape!
         </p>
       </div>
