@@ -9,8 +9,7 @@ export default async function middleware(req: NextRequest) {
 	// 		return NextResponse.redirect(new URL('/login', req.url));
 	// 	}
 	// }
-	// return NextResponse.next();
-	return true;
+	return NextResponse.next();
 }
 
 export const config = {
