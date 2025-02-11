@@ -16,25 +16,25 @@ interface SuggestedActionsProps {
 function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'Suggest personalized diet plans',
+      label: 'for improving well-being',
+      action: 'Suggest personalized diet plans for improving well-being',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Tell me about BMI calculation',
+      label: 'and how it affects health?',
+      action: 'Tell me about BMI calculation and how it affects health?',
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'Recommend mental health exercises',
+      label: 'for reducing stress',
+      action: 'Recommend mental health exercises for reducing stress',
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
-    },
+      title: 'Advise on family medical history',
+      label: 'and its impact on health',
+      action: 'Advise on family medical history and its impact on health',
+    }
   ];
 
   return (
@@ -50,9 +50,9 @@ function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
         >
           <Button
             variant="ghost"
+            type="button"
             onClick={async () => {
               window.history.replaceState({}, '', `/chat/${chatId}`);
-
               append({
                 role: 'user',
                 content: suggestedAction.action,

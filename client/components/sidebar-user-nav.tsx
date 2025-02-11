@@ -33,6 +33,7 @@ export function SidebarUserNav({ user }: { user: User }) {
                 width={24}
                 height={24}
                 className="rounded-full"
+                priority
               />
               <span className="truncate">{user?.email}</span>
               <ChevronUp className="ml-auto" />

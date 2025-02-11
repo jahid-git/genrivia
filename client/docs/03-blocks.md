@@ -103,7 +103,12 @@ export const customBlock = new Block<"custom", CustomBlockMetadata>({
         />
         <button
           onClick={() => {
-            navigator.clipboard.writeText(content);
+            const textarea = document.createElement("textarea");
+            textarea.value = content;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
             toast.success("Content copied to clipboard!");
           }}
         >

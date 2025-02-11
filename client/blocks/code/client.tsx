@@ -235,18 +235,23 @@ export const codeBlock = new Block<'code', Metadata>({
 
         return false;
       },
-    },
-    {
+        },
+        {
       icon: <CopyIcon size={18} />,
       description: 'Copy code to clipboard',
       onClick: ({ content }) => {
-        navigator.clipboard.writeText(content);
+        const textarea = document.createElement('textarea');
+        textarea.value = content;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
         toast.success('Copied to clipboard!');
       },
-    },
-  ],
-  toolbar: [
-    {
+        },
+      ],
+      toolbar: [
+        {
       icon: <MessageIcon />,
       description: 'Add comments',
       onClick: ({ appendMessage }) => {

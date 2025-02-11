@@ -44,7 +44,12 @@ export function PureMessageActions({
               className="py-1 px-2 h-fit text-muted-foreground"
               variant="outline"
               onClick={async () => {
-                await copyToClipboard(message.content as string);
+                const textarea = document.createElement('textarea');
+                textarea.value = message.content;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
                 toast.success('Copied to clipboard!');
               }}
             >
