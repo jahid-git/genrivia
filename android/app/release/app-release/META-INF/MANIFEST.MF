@@ -1,0 +1,70 @@
+Manifest-Version: 1.0
+Built-By: Signflinger
+Created-By: Signflinger
+
+Name: BUNDLE-METADATA/com.android.tools.build.gradle/app-metadata.prop
+ erties
+SHA-256-Digest: fc8TDUh0Jw5FDexQZJMEwPVvjIZuK9ACUwqmZBPYjC0=
+
+Name: BUNDLE-METADATA/com.android.tools.build.libraries/dependencies.p
+ b
+SHA-256-Digest: TlqcUBXGzX7qprIDtPMEIGiOoPDmpdjAITIiR/JV7Ho=
+
+Name: BUNDLE-METADATA/com.android.tools.build.obfuscation/proguard.map
+SHA-256-Digest: 1J1ShSSuA8WHd1F61Z4fflsqVhycF1XLVjp1/58O+H4=
+
+Name: BUNDLE-METADATA/com.android.tools/r8.json
+SHA-256-Digest: 5BQEoHhlREf1bK8KTsXFav6C+VeTnPO66HmWQ2I/EJM=
+
+Name: BundleConfig.pb
+SHA-256-Digest: w1f4QHzFAFAOEZUObNs5H56P2bJv/WePK6YsoKqeyWI=
+
+Name: base/assets.pb
+SHA-256-Digest: hkcLSLjUVPyb8cXwJlDCmuY5NOp2mn3uNPYxQx2TGps=
+
+Name: base/assets/css/styles.css
+SHA-256-Digest: SnGloenp3AtqrwQ+MQadLQm+ds3IWPpucyuk0PyLKps=
+
+Name: base/assets/index.html
+SHA-256-Digest: WNtSxylLDkkwbar0mljakEyjQB1p6ysdRoEfFj7b4kA=
+
+Name: base/assets/js/App.js
+SHA-256-Digest: bT+8wNoCkp7cVYxf9nGkD0w3hl3LbOHUbf6i9WarJZY=
+
+Name: base/assets/js/index.js
+SHA-256-Digest: i2PWL7arp9JZNELp8gW7jWIrW52IcBVwOiJOEmQf7kY=
+
+Name: base/assets/libs/vanilla-tilt.js
+SHA-256-Digest: 3m+o0/QNuuJyanL30a5GuwWIJnrwU1W+8dEo9zf0ooI=
+
+Name: base/dex/classes.dex
+SHA-256-Digest: uBw4pZwOe2OII9mtM5j7hQZHn1g6YzIyFP9ghlkhKZc=
+
+Name: base/manifest/AndroidManifest.xml
+SHA-256-Digest: 85cbyX2YkZPl1LN9rrJCEE3ueguSamZMmxhd19sQVAI=
+
+Name: base/res/drawable-v24/ic_launcher.png
+SHA-256-Digest: Xz9DfeLYnMmWAL9IYZGbylLy8AKFk1r+UTaMoEkj+sE=
+
+Name: base/res/drawable/ic_launcher.png
+SHA-256-Digest: Xz9DfeLYnMmWAL9IYZGbylLy8AKFk1r+UTaMoEkj+sE=
+
+Name: base/res/layout/activity_main.xml
+SHA-256-Digest: 2efQcRmMTt6kj50A80QuFK0ELGdWqW7fjjuzymRjJww=
+
+Name: base/res/xml/backup_rules.xml
+SHA-256-Digest: fztQWcro7Vad+bCPHUwGmTOYNuQyc+QVTPxBEDbrV9o=
+
+Name: base/res/xml/data_extraction_rules.xml
+SHA-256-Digest: GCuazHHoLSYBnuSiVihMbUdwPUdAinbjUiHtvNDhPgk=
+
+Name: base/resources.pb
+SHA-256-Digest: 6v829eEQ27izAioP8v9wZuTyPs6fIPNmSX3v5jt8NIU=
+
+Name: base/root/META-INF/com/android/build/gradle/app-metadata.propert
+ ies
+SHA-256-Digest: fc8TDUh0Jw5FDexQZJMEwPVvjIZuK9ACUwqmZBPYjC0=
+
+Name: base/root/META-INF/version-control-info.textproto
+SHA-256-Digest: ONN3r6drY2Tlv1Uc9P/sGogaRhAqAEf1I/vxSODfaSg=
+

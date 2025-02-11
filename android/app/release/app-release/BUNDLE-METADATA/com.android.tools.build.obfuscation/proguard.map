@@ -1,0 +1,104 @@
+# compiler: R8
+# compiler_version: 8.7.18
+# min_api: 21
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 67af6f0
+# pg_map_hash: SHA-256 67af6f013f7f563ceea8424fd0ae98e25265c6a566edee53fcc45380e1602998
+com.codex.simple_calculator.MainActivity -> com.codex.simple_calculator.MainActivity:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    android.webkit.WebView webView -> a
+    1:1:void <init>():13:13 -> <init>
+    1:2:void lambda$onBackPressed$0(java.lang.String):36:37 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/codex/simple_calculator/MainActivity;Ljava/lang/String;)V"}
+    1:1:void onBackPressed():35:35 -> onBackPressed
+    1:2:void onCreate(android.os.Bundle):20:21 -> onCreate
+    3:3:void onCreate(android.os.Bundle):23:23 -> onCreate
+    4:7:void onCreate(android.os.Bundle):25:28 -> onCreate
+    8:8:void onCreate(android.os.Bundle):30:30 -> onCreate
+com.codex.simple_calculator.MainActivity$$ExternalSyntheticLambda0 -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.codex.simple_calculator.MainActivity com.codex.simple_calculator.MainActivity$$InternalSyntheticLambda$1$5eb8a863e4dbd46d603d5d12cc2c1dbe182bd5cd52562719fd90098d3305ec30$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda0.<init>(com.codex.simple_calculator.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$$ExternalSyntheticLambda0.onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+      # {"id":"com.android.tools.r8.synthesized"}
+com.codex.simple_calculator.MainActivity$AndroidApiInterface -> a.f:
+# {"id":"sourceFile","fileName":"MainActivity.java"}
+    com.codex.simple_calculator.MainActivity this$0 -> a
+    1:6:void <init>(com.codex.simple_calculator.MainActivity):42:42 -> <init>
+    1:1:void Exit():87:87 -> Exit
+    1:12:void SetNavigationBarColor(java.lang.String):50:50 -> SetNavigationBarColor
+    1:12:void SetStatusBarColor(java.lang.String):45:45 -> SetStatusBarColor
+    1:1:void ShowDialog(int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):64:64 -> ShowDialog
+    1:12:void Toast(java.lang.String):82:82 -> Toast
+    1:12:void Vibrate(int):56:56 -> Vibrate
+    13:19:void Vibrate(int):57:57 -> Vibrate
+    20:23:void Vibrate(int):58:58 -> Vibrate
+com.codex.simple_calculator.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda0 -> a.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int a.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda0.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.codex.simple_calculator.MainActivity$AndroidApiInterface com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$0c8826dafcb1552deb96408d5a3e6b06c5490de4be08f19455f69c230761f6a5$0.f$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$0c8826dafcb1552deb96408d5a3e6b06c5490de4be08f19455f69c230761f6a5$0.f$1 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda0.<init>(a.MainActivity$AndroidApiInterface,java.lang.String,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/f;Ljava/lang/String;I)V"}
+    1:1:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$SetNavigationBarColor$1(java.lang.String):50:50 -> run
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+    2:2:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$Toast$4(java.lang.String):82:82 -> run
+    3:3:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$SetStatusBarColor$0(java.lang.String):45:45 -> run
+com.codex.simple_calculator.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda1 -> a.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.codex.simple_calculator.MainActivity com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$4ca3405b5c10a7c18a31968949e390cea39a3915b0a767677bc4928a4b3ef361$0.f$0 -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda1.<init>(com.codex.simple_calculator.MainActivity):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda1.run():0:0 -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.codex.simple_calculator.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda2 -> a.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.codex.simple_calculator.MainActivity$AndroidApiInterface com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$a87187293352a9677b2d56571b9e183a6b9832c99029c191283914d32db6355c$0.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$a87187293352a9677b2d56571b9e183a6b9832c99029c191283914d32db6355c$0.f$1 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$a87187293352a9677b2d56571b9e183a6b9832c99029c191283914d32db6355c$0.f$2 -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$a87187293352a9677b2d56571b9e183a6b9832c99029c191283914d32db6355c$0.f$3 -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    int com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$a87187293352a9677b2d56571b9e183a6b9832c99029c191283914d32db6355c$0.f$4 -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$a87187293352a9677b2d56571b9e183a6b9832c99029c191283914d32db6355c$0.f$5 -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$1$a87187293352a9677b2d56571b9e183a6b9832c99029c191283914d32db6355c$0.f$6 -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda2.<init>(a.MainActivity$AndroidApiInterface,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/f;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V"}
+    1:3:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$ShowDialog$3(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String):65:67 -> run
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()V"}
+    4:4:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$ShowDialog$3(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String):69:69 -> run
+    5:5:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$ShowDialog$3(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String):73:73 -> run
+    6:7:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$ShowDialog$3(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String):75:76 -> run
+com.codex.simple_calculator.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda5 -> a.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.codex.simple_calculator.MainActivity$AndroidApiInterface com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$2$de9af0aad6790fd9d94072d3bb4ac6f53ed0f06b597c7b4ebe9d93907db7e34e$0.f$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"La/f;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    int com.codex.simple_calculator.MainActivity$AndroidApiInterface$$InternalSyntheticLambda$2$de9af0aad6790fd9d94072d3bb4ac6f53ed0f06b597c7b4ebe9d93907db7e34e$0.f$1 -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:1:void a.MainActivity$AndroidApiInterface$$ExternalSyntheticLambda5.<init>(a.MainActivity$AndroidApiInterface,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(La/f;I)V"}
+    1:1:void com.codex.simple_calculator.MainActivity$AndroidApiInterface.lambda$ShowDialog$2(int,android.content.DialogInterface,int):70:70 -> onClick
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Landroid/content/DialogInterface;I)V"}
