@@ -20,7 +20,7 @@ MODEL_MAP = {
     ),
 }
 
-model_name = "groq"
+model_name = "gemini"
 
 agent = Agent(
     model=MODEL_MAP[model_name],

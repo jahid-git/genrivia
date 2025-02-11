@@ -1,10 +1,8 @@
-import { compare } from 'bcrypt-ts';
-import NextAuth, { type User, type Session } from 'next-auth';
-import Credentials from 'next-auth/providers/credentials';
-import Google from 'next-auth/providers/google';
-import Apple from 'next-auth/providers/apple'
-
-import { getUser } from '@/lib/db/queries';
+import NextAuth, { type User, type Session } from "next-auth";
+import Credentials from "next-auth/providers/credentials";
+import Google from "next-auth/providers/google";
+import Apple from "next-auth/providers/apple";
+import { createUser, getUser } from "@/lib/db/queries";
 
 interface ExtendedSession extends Session {
   user: User;
@@ -17,6 +15,8 @@ export const {
   signOut,
 } = NextAuth({
   providers: [
+    Google({}),
+    Apple({}),
     Credentials({
       credentials: {},
       async authorize({ email, password }: any) {
@@ -28,6 +28,27 @@ export const {
   ],
   callbacks: {
     async signIn({ user, account, profile, email, credentials }) {
+      if (
+        user?.email &&
+        user?.name &&
+        (account?.provider === "google" || account?.provider === "apple")
+      ) {
+        const users = await getUser(user.email);
+        if (users.length === 0) {
+          await createUser(
+            user.email,
+            "",
+            user.name,
+            profile?.birthdate || "",
+            profile?.gender === "male" ||
+              profile?.gender === "female" ||
+              profile?.gender === "other"
+              ? profile.gender
+              : "other",
+            user.image || ""
+          );
+        }
+      }
       return true;
     },
     async jwt({ token, user }) {
@@ -44,8 +65,9 @@ export const {
       session: ExtendedSession;
       token: any;
     }) {
-      if (session.user) {
-        session.user.id = token.id as string;
+      if (session.user.email) {
+        const users = await getUser(session.user.email);
+        session.user = users[0];
       }
       return session;
     },
