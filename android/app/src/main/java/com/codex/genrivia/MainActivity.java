@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://genrivia.vercel.app/");
+        webView.loadUrl("https://genrivia.vercel.app");
 
         webView.addJavascriptInterface(new AndroidApiInterface(), "AndroidApi");
     }
@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
     @Override
     public void onBackPressed() {
         webView.evaluateJavascript("window.onBackPressed()", value -> {
-            if (!"true".equals(value)) {
+            if (!"false".equals(value)) {
                 super.onBackPressed();
             }
         });

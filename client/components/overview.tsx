@@ -15,7 +15,7 @@ export const Overview = () => {
         <p className="flex flex-row justify-center gap-4 items-center">
           <Image src="/images/icon.png" alt="Logo" width={90} height={90} />
         </p>
-        <p>
+        <p className='w-4/5'>
           <strong>Genrivia</strong> is a healthcare AI designed to generate personalized health and wellness plans. I analyze user-provided health data to create customized recommendations for diet, exercise, mental health, and general well-being. Basically, I&apos;m here to get you in top shape!
         </p>
       </div>
