@@ -1,10 +1,9 @@
 import Form from 'next/form';
 
 import { signOut } from '@/app/(auth)/auth';
-import { useRouter } from 'next/router';
 
 export const SignOutForm = () => {
-  const { replace } = useRouter()
+
   return (
     <Form
       className="w-full"
@@ -14,7 +13,6 @@ export const SignOutForm = () => {
         await signOut({
           redirectTo: '/',
         });
-        replace('/login');
       }}
     >
       <button
