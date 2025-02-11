@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'deepstormml.s3.ap-south-1.amazonaws.com',
       },
+      {
+        hostname: 'genrivia.vercel.app',
+      },
     ],
   },
 };
