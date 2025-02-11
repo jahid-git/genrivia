@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'avatar.vercel.sh',
       },
+      {
+        hostname: 'deepstormml.s3.ap-south-1.amazonaws.com',
+      },
     ],
   },
 };

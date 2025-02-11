@@ -117,6 +117,7 @@ export function Chat({
       toast.error('An error occurred, please try again!');
     } finally {
       setIsLoading(false);
+      mutate('/api/history')
     }
   };
 
