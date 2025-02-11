@@ -51,7 +51,7 @@ export function Chat({
     setInput('');
     setIsLoading(true);
     try {
-      const response = await fetch('http://3.110.123.2//api/chat', {
+      const response = await fetch('https://python.1bd.xyz/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

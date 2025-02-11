@@ -54,10 +54,11 @@ export function SidebarUserNav({ user }: any) {
               <button
                 type="button"
                 className="w-full cursor-pointer"
-                onClick={() => {
-                  signOut({
+                onClick={async () => {
+                  await signOut({
                     redirectTo: '/',
                   });
+                  window.location.href = '/login';
                 }}
               >
                 Sign out
