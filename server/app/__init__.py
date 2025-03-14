@@ -6,8 +6,7 @@ from app.routes.chat_routes import chat_bp
 def create_app():
     app = Flask(__name__)
     
-    CORS(app, resources={r"/api/*": {"origins": "https://genrivia.vercel.app"}})
-
+    CORS(app, origins="*")
     app.register_blueprint(response_bp)
     app.register_blueprint(chat_bp)
 
