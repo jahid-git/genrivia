@@ -23,8 +23,8 @@ Genrivia is a Next.js application integrated with Vercel AI chatbot, AWS S3, and
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/jahid-git/deepstormml.git
-    cd deepstormml/client
+    git clone https://github.com/jahid-git/genrivia.git
+    cd genrivia/client
     ```
 
 2. Install dependencies:
@@ -94,8 +94,8 @@ Genrivia Backend is a Python Flask application integrated with Agno for AI capab
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/jahid-git/deepstormml.git
-    cd deepstormml/server
+    git clone https://github.com/jahid-git/genrivia.git
+    cd genrivia/server
     ```
 
 2. Create a virtual environment and activate it:

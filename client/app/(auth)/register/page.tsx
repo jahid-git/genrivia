@@ -258,7 +258,7 @@ export default function Page() {
             className="bg-violet-600 hover:bg-violet-700 text-white font-semibold py-2 px-3 rounded-lg">
             Sign In with Google
           </button>
-          <button
+          {/* <button
             onClick={() => {
               signIn('apple', {
                 redirectTo: '/'
@@ -266,6 +266,15 @@ export default function Page() {
             }}
             className="bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-3 rounded-lg">
             Sign In with Apple
+          </button> */}
+          <button
+            onClick={() => {
+              signIn('github', {
+                redirectTo: '/'
+              })
+            }}
+            className="bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 px-3 rounded-lg">
+            Sign In with Github
           </button>
         </div>
       </div>

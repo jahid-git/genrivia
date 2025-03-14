@@ -2,6 +2,7 @@ import NextAuth, { type User, type Session } from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import Google from "next-auth/providers/google";
 import Apple from "next-auth/providers/apple";
+import Github from "next-auth/providers/github";
 import { createUser, getUser } from "@/lib/db/queries";
 
 interface ExtendedSession extends Session {
@@ -16,6 +17,7 @@ export const {
 } = NextAuth({
   providers: [
     Google({}),
+    Github({}),
     Apple({}),
     Credentials({
       credentials: {},
@@ -31,7 +33,7 @@ export const {
       if (
         user?.email &&
         user?.name &&
-        (account?.provider === "google" || account?.provider === "apple")
+        (account?.provider === "google" || account?.provider === "github" || account?.provider === "apple")
       ) {
         const users = await getUser(user.email);
         if (users.length === 0) {

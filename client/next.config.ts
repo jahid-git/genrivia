@@ -10,7 +10,10 @@ const nextConfig: NextConfig = {
         hostname: 'avatar.vercel.sh',
       },
       {
-        hostname: 'deepstormml.s3.ap-south-1.amazonaws.com',
+        hostname: 'lh3.googleusercontent.com',
+      },
+      {
+        hostname: 'genrivia.s3.ap-south-1.amazonaws.com',
       },
       {
         hostname: 'genrivia.vercel.app',
