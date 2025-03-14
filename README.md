@@ -1,6 +1,6 @@
-# Deep Storm ML
+# Genrivia
 
-Deep Storm ML is a Next.js application integrated with Vercel AI chatbot, AWS S3, and PostgreSQL. This project aims to provide a seamless experience for users to interact with AI and manage data efficiently.
+Genrivia is a Next.js application integrated with Vercel AI chatbot, AWS S3, and PostgreSQL. This project aims to provide a seamless experience for users to interact with AI and manage data efficiently.
 
 ## Features
 
@@ -69,9 +69,9 @@ Deep Storm ML is a Next.js application integrated with Vercel AI chatbot, AWS S3
 2. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 
-# Deep Storm ML Backend
+# Genrivia Backend
 
-Deep Storm ML Backend is a Python Flask application integrated with Agno for AI capabilities, AWS S3 for storage, and PostgreSQL for database management. This backend service supports the Deep Storm ML frontend application.
+Genrivia Backend is a Python Flask application integrated with Agno for AI capabilities, AWS S3 for storage, and PostgreSQL for database management. This backend service supports the Genrivia frontend application.
 
 ## Features
 

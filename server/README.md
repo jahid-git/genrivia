@@ -1,6 +1,6 @@
-# Deep Storm ML Backend
+# Genrivia Backend
 
-Deep Storm ML Backend is a Python Flask application integrated with Agno for AI capabilities, AWS S3 for storage, and PostgreSQL for database management. This backend service supports the Deep Storm ML frontend application.
+Genrivia Backend is a Python Flask application integrated with Agno for AI capabilities, AWS S3 for storage, and PostgreSQL for database management. This backend service supports the Genrivia frontend application.
 
 ## Features
 
