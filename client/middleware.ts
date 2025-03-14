@@ -4,7 +4,6 @@ import { getToken } from 'next-auth/jwt';
 export default async function middleware(req: NextRequest) {
 	if (req.nextUrl.pathname === '/') {
 		const token = await getToken({ req, secret: process.env.AUTH_SECRET, secureCookie: true });
-		console.log(token);
 		if (!token) {
 			return NextResponse.redirect(new URL('/login', req.url));
 		}
